@@ -3,7 +3,6 @@ FROM python:3.8
 LABEL version="0.1"
 LABEL maintainer="Nil Andreu"
 
-ENV PYTHONUTF8=1
 ENV PYTHONPATH="."
 ENV ENV_FILE_NAME="./api/main.py"
 
