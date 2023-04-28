@@ -13,6 +13,7 @@ def join_multiple_text_tuple(text_tuple: str):
 
 def get_list_from_text_tuple(text_tuple: str) -> typing.List[str]:
     """Convert the text that contains a tuple into a list of the different strings it contains that tuple"""
+    """This is because CSV stores everything as text. We could skip this step if we used another file formatting"""
 
     # In the case is nan
     if text_tuple is np.nan or not text_tuple or isinstance(text_tuple, float):
