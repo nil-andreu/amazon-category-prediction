@@ -1,0 +1,24 @@
+# General
+__pycache__/
+.ipynb_checkpoints
+
+# IDE
+.idea
+
+# Environment
+.venv
+.env
+venv/
+env/
+
+# Data & model checkpoints
+shared/data
+shared/data/model_ckpt
+lightning_logs/
+
+# My personal notes
+notes.md
+
+
+
+
