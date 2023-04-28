@@ -1,0 +1,14 @@
+# Environmental
+venv/
+__pycache__
+
+# Files not wanted
+.flake8
+.pre-commit-config.yaml
+notes.model
+README.md
+SOLUTION.md
+
+# Folders not wanted
+notebooks/
+shared/model/lightning_logs
